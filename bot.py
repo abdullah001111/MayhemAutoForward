@@ -40,7 +40,7 @@ except Exception as exc:
 @datgbot.on(events.NewMessage(pattern="/start"))
 async def _(event):
     await event.reply(
-        f"Hi `{event.sender.first_name}`!\n\nI am a poweful Auto Forward Bot made by @Mayhem_Bots\n Tap on /help for more information",
+        f"Konnichiwa `{event.sender.first_name}`!\n\nI am a poweful Auto Forward Bot made by @Mayhem_Bots\n Tap on /help for more information",
         buttons=[
             Button.url("Channel", url="t.me/Anime_Mayhem"),
             Button.url("Owner", url="t.me/Eren_is_Yeager"),
@@ -52,7 +52,7 @@ async def _(event):
 @datgbot.on(events.NewMessage(pattern="/help"))
 async def helpp(event):
     await event.reply(
-        "×Owner× : @Eren_is_Yeager\n×Anime Channel× : @Anime_Mayhem\n×Manga Channel× : @Manga_Mayhem\n×Bot Channel× : @Mayhem_Bots\nBy @TeamMayhe."
+        "×Owner× : @Eren_is_Yeager\n×Anime Channel× : @Anime_Mayhem\n×Manga Channel× : @Manga_Mayhem\n×Bot Channel× : @Mayhem_Bots\n\nBy @TeamMayhem"
     )
 
 
